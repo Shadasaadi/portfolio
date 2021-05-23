@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+   <meta charset="UTF-8" />
+   <title>About</title>
+   <meta name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+   <link rel="stylesheet" href="./about-page.css" />
+   </head>
+   <body class="main-bg">
+      <ul class="main-nav">
+         <li> <a href="index.html">Home</a></li>
+         <li> <a href="about.html">About</a></li>
+         <li> <a href="contact.html">Contact</a></li>
+      </ul>
+      <header>
+         <div class="hero-text-box">
+            <h1> Hello There !<br> Here's a Little Bit About Me </h1>
+            <a class="card-button button-blue btn-link js-message-btn" href="#about-me">Show me more </a>
+         </div>
+      </header>
+      <section class="section-features" id="about-me">
+         <h2> About Me </h2>
+         <div class="row">
+            <p class="long-copy">
+               Growing up I didn't have a lot of knowledge in coding, I thought of computers as a tool to help me get
+               through my daily life,
+               I need an answer to a question? a recipe? a random thing that came to my mind? easy, just google it, I
+               didn't take it any further than that.
+               As I started my first year in University, I met a lot of people, some of them were learning computer
+               science, and whenever we'd sit together they would talk about their homeworks and what code they're
+               writing, and I found myself to be very interested in what they say, to the point where I would go back
+               to my dorms and search for some code learning videos or websites and I would sit there for hours
+               watching and learning and trying.
+               I was slowly being pulled into this whole new world, and I was slowly falling in love with it.
+               The fact that I can turn anything I can think of into reality blew me away, It felt like I have
+               superpowers, so I started looking for ways to get myself more involved in this world, and that is when I
+               came across ITC, I read the terms and services, made a couple of calls and signed up for the program,
+               without hesitation, and well after a couple of interviews here I am, working on the project that will,
+               hopefully, get me into the academy.
+            </p>
+         </div>
+      </section>
+      <section  class="section-features">
+         <div class="row jt-center">
+            <h2 >Education and Interests</h2>
+         </div>
+         <p class="long-copy">
+            
+            I studied biology psychology and neuroscience in the university of tel aviv,
+            Before that I studied medicine for a year and a half in the technion institute in haifa ( I graduated
+            highschool at 17 because I skipped a class in elementary school so I was able to get accepted at 19 ) .
+            I have done a couple of math courses on the side in the open university ( algebra and calculus for cs
+            students)
+            Im intrested in the human brain , how does function and what does the future holds for us mostly in the
+            AI (artificial intelligence) feild .
+            On a less serious note- im so into the music industry that I even learned a little bit of audio
+            processing myself I play a bit of guitar and my singing is not too shappy .
+         </p>
+      </section>
+      <div class="seperator"></div>
+      <section class="section-features">
+         <div class="row">
+            <h2 class="center"> Places I've been &mdash; and Places I wanna visit </h2>
+         </div>
+         <div class="row">
+            <div class="col span-1-of-4 box">
+               <ion-icon class=" icon-big" name="infinite"></ion-icon>
+               <h3> Ein-Ibrahim</h3>
+               <p>I was born and raised in Ein Ibrahim till the age of 19 , it's a very peacful village\neighborhood ,
+                  a quite one too. so many childhood memories lies between it's alleys and it will always hold a
+                  special place in my heart .
+               </p>
+            </div>
+            <div class="col span-1-of-4 box">
+               <ion-icon class=" icon-big" name="time"></ion-icon>
+               <h3> Tel Aviv </h3>
+               <p> I have been living in Tel-Aviv since I left for university at the age of 20 , I can definitely say
+                  that I love this city for the diversity it holds within , for the cool memories i made here , and
+                  most and foremost for the poeple which I love that I met here . 
+               </p>
+            </div>
+            <div class="col span-1-of-4 box">
+               <ion-icon class=" icon-big" name="nutrition"></ion-icon>
+               <h3> Canada </h3>
+               <p>Regarding the Places which I would like to live in\visit , Canada would be great . I have a couple of
+                  really good friends who live there and from what I have heard the people there are very friendly and
+                  it's just a nice place in general, so anywhere in Canada would be a nice place to live, not to
+                  mention that my favorite band peforms there all the time , what more can I ask for ?
+               </p>
+            </div>
+            <div class="col span-1-of-4 box">
+               <ion-icon class=" icon-big" name="time"></ion-icon>
+               <h3> Japan </h3>
+               <p> I'm a huge anime fan and such a “weeb” , so it's easy to guess that that I would love to visit japan
+                  for a while, preferably anywhere near chidorigafuchi park or ueno park , because of the lovely views
+                  and the cherry blossoms in the spring ,that and obviously to learn more about the culture up close ,
+                  visit the monuments, and ofcurse to enjoy their real ethnic food
+                  . 
+               </p>
+            </div>
+         </div>
+         </div>
+      </section>
+      </div>
+      </div>
+      <section class="section-abouts">
+         <ul class="about-showcase clearfix">
+            <li>
+               <figure class="about-photo">
+                  <img src="images/ibrahim.jpg">
+               </figure>
+            </li>
+            <li>
+               <figure class="about-photo">
+                  <img src="images/tlv universty.jpg">
+               </figure>
+            </li>
+            <li>
+               <figure class="about-photo">
+                  <img src="images/toranto city.jpg">
+               </figure>
+            </li>
+            <li>
+               <figure class="about-photo">
+                  <img src="images/chidori-ga-fuchi-moat.jpg">
+               </figure>
+            </li>
+         </ul>
+      </section>
+      
+      </section>
+      <div>
+         <div id="map"></div>
+         <div class="profile-card-ctr">
+            <button class="card-button button-orange" onclick="nextLocation(false)" id="previous-button"> Previous
+            </button>
+            <button class="card-button button-blue js-message-btn" onclick="nextLocation(true)" id="next-button">
+            Next</button>
+         </div>
+      </div>
+      <footer>
+         <div class="row align-center">
+            <ul class="footer ">
+               <li> <a href="index.html">Home</a></li>
+               <li> <a href="about.html">About</a></li>
+               <li> <a href="contact.html">Contact</a></li>
+            </ul>
+            <p class="technical_skills"> This website was built using <span id="lang"> </span></p>
+         </div>
+      </footer>
+      <script src="portfolio.js"></script>
+      <script
+         src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;key=AIzaSyApOXiWaaV5Xv4Wgjns-dDzNV-sMGf58O8"></script>
+      <script src="https://use.fontawesome.com/9f1ded7066.js"></script>
+       </body>
+</html>

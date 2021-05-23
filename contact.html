@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" >
+<meta charset="UTF-8" />
+<title>Contact</title>
+<meta name="viewport"
+  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+<link rel="stylesheet" href="./style.css" />
+</head>
+<body class="contact-bg">
+  <nav>
+    <div class="row">
+      <ul class="main-nav">
+        <li> <a href="index.html">Home</a></li>
+        <li> <a href="about.html">About</a></li>
+        <li> <a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="wrapper">
+    <div class="profile-card js-profile-card">
+     
+      <div class="about-card-container js-profile-cnt">
+       
+        <div class="card-txt spacetocard" >
+         Contact Me
+        </div>
+        <div class="container">
+          <form onsubmit="return false" name="contact-form">
+            <label for="fname">First Name <span class="required-ast">*</span></label>
+
+            <input onkeyup="checkForm()" type="text" id="fname" name="firstname" placeholder="Your name.." required>
+        
+            <label for="lname">Last Name </label>
+            <input onkeyup="checkForm()" type="text" id="lname" name="lastname" placeholder="Your last name..">
+        
+            <label for="email">E-mail Adress <span class="required-ast">*</span></label>
+            <input  onkeyup="checkForm()" type="email" id="email" name="email" placeholder="Your email.." required>
+
+            <label for="phonenumber">Phone Number <span class="required-ast">*</span></label>
+            <input onkeyup="checkForm()" type="number" id="phonenumber" name="phonenumber" placeholder="Your phone number.." required>
+            
+        
+            <label for="comment">Comment <span class="required-ast">*</span></label>
+            <input onkeyup="checkForm()" type="text" id="comment2" name="comment" placeholder="Write something.." required>
+        
+            <button id="submit-button" class="card-button new-mg btn-mrg gray-button js-message-btn" onclick="printInfo()" disabled>
+             Submit
+            </button>
+        
+          </form>
+        </div>
+        
+      </div>
+    </div>
+    </form>
+    <div class="profile-card__overlay js-message-close"></div>
+  </div>
+  </div>
+  </div>
+ 
+  
+  <footer>
+    <div class="row">
+        <ul class="main-nav footer">
+            <li> <a href="index.html">Home</a></li>
+            <li> <a href="about.html">About</a></li>
+            <li> <a href="contact.html">Contact</a></li>
+        </ul>
+        <p class="technical_skills"> This website was built using <span id="lang"> </span></p>
+     </div>
+</footer>
+</body>
+<script src="portfolio.js"></script>
+</html>
